@@ -2,15 +2,15 @@ const mongoose = require('mongoose');
 
 const useSchema = new mongoose.Schema({
     name:{
-        type: 'string',
+        type: String,
         require: true
     },
     email:{
-        type: 'string',
+        type: String,
         require: true
     },
     password:{
-        type: 'string',
+        type: String,
         require: true
     }
 })
